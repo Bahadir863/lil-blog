@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="muzik.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f0df6e2fe5.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="hakkimda.html">Hakkımda</a>
+      <a href="iletisim.html">Sosyal Medyam</a>
+      <a href="Spor.html">Spor</a>
+      <a href="muzik.html">Müzik</a>
+      <a href="dizi.html">Dizi</a>
+    </div>
+
+    <div id="main">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776; Menü</span
+      >
+    </div>
+    <h1>Sanatçı Önerileri</h1>
+
+    <div class="row">
+      <div class="column" style="background-color: rgb(189, 234, 255)">
+        <p>070 Shake (R&B)</p>
+        <img src="./img/070.jpg" alt="John" style="width: 100%" />
+        <p>Juice WRLD (Rap)</p>
+        <img src="./img/kidd.jpg" alt="John" style="width: 100%" />
+      </div>
+      <div class="column" style="background-color: rgb(189, 234, 255)">
+        <p>Men I Trust (Indie)</p>
+        <img src="./img/trust.jpg" alt="John" style="width: 100%" />
+        <p>Agar Agar (synth-pop)</p>
+        <img src="./img/agar.jpg" alt="John" style="width: 100%" />
+        <p>Mac Miller (Rap R&B Indie)</p>
+        <img src="./img/mac.jpg" alt="John" style="width: 100%" />
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>

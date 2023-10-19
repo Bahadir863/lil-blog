@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="spor.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f0df6e2fe5.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="hakkimda.html">Hakkımda</a>
+      <a href="iletisim.html">Sosyal Medyam</a>
+      <a href="Spor.html">Spor</a>
+      <a href="muzik.html">Müzik</a>
+      <a href="dizi.html">Dizi</a>
+    </div>
+
+    <div id="main">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776; Menü</span
+      >
+    </div>
+    <h2>Spor Haberleri</h2>
+
+    <div class="row">
+      <div class="column" style="background-color: rgb(189, 234, 255)">
+        <h2>NBA'de Gecenin Haberleri</h2>
+        <img src="./img/durant.jpg" alt="John" style="width: 100%" />
+        <p>
+          Amerikan Basketbol Ligi (NBA) play-off'larında Brooklyn Nets,
+          Milwaukee Bucks'ı 114-108 yenerek konferans yarı final serisinde 3-2
+          öne geçti. NBA play-off'larına bir maçla devam edildi. Nets, Doğu
+          Konferansı yarı final serisi 5. maçında Barclays Center'da Bucks'ı
+          ağırladı. Play-off'larda sakatlıklar yüzünden sorun yaşayan Nets'te
+          Kevin Durant, karşılaşmanın tamamında forma giydi. Nets, serinin 4.
+          maçında sakatlanan Kyrie Irving'den yoksun sahaya çıktı. İlk
+          karşılaşmada sakatlanan James Harden ise takıma döndü. Durant, 49
+          sayı, 17 ribaunt, 10 asistle "triple-double" yaparak galibiyetin
+          mimarı oldu. Yıldız basketbolcu, bir play-off maçında en çok sayı atan
+          Nets oyuncusu olmayı da başardı. Jeff Green 27, Blake Griffin 17
+          sayıyla galibiyete katkı sağladı. Sakatlıktan dönen Harden ise 5 sayı,
+          8 asist, 6 ribauntla mücadele etti. Bucks'ta Giannis Antetokounmpo 34
+          sayı, 12 ribaunt, Khris Middleton 25 sayı, 5 asist, Jrue Holiday 19
+          sayı, 8 asistle oynadı. Serinin galibi, Doğu Konferansı finalinde
+          Philadelphia 76ers-Atlanta Hawks (2-2) eşleşmesinin kazananı ile
+          karşılaşacak.
+        </p>
+      </div>
+      <div class="column" style="background-color: rgb(189, 234, 255)">
+        <h2>
+          2021 FIBA Kadınlar Avrupa Basketbol Şampiyonası ilk maçında Türkiye,
+          Slovenya'ya yenildi
+        </h2>
+        <img src="./img/basket.jpg" alt="John" style="width: 100%" />
+        <p>
+          Maçın başında savunma ribauntlarında başarılı olan A Milli Takım,
+          hızlı hücumlarda rakibinin sayılarına engel olamayınca 7. dakikada 9
+          sayı (17-8) geriye düştü. İyi savunma yapan milliler, Melis'in
+          basketiyle 1. periyot sonunda farkı 19-16 ile 3 sayıya indirmeyi
+          başardı. Boyalı alanda etkili olamayan milli takım karşısında
+          Slovenya, 18. dakikada farkı 13 sayıya (34-21) çıkardı. Hollingsworth
+          ile oyundan kopmamaya çalışan Türkiye, soyunma odasına 36-27 geride
+          gitti. İkinci yarıda boyalı alanı daha etkili kullanan ama dış
+          atışlarda düşük yüzdede kalan milli takım, Oblak'ın basketlerine engel
+          olamayınca 3. periyodu 53-42 geride geçti. Son periyotta oyundan
+          tamamen kopan A Milli Takım, rakibine 72-47 mağlup oldu. Milli Takım,
+          gruptaki ikinci maçında yarın TSİ 13.00'te Bosna Hersek ile
+          karşılaşacak.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
